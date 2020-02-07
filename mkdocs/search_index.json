@@ -19,6 +19,36 @@
             "location": "/donation/#donation-list",
             "text": "Donation list is updated on weekly basis.  To be updated...",
             "title": "Donation list"
+        },
+        {
+            "location": "/expense/",
+            "text": "Expense\n\n\nAll expense on equipement, supplies and support will be updated here.\n\n\nAdministrative Expense\n\n\nWe try our best to keep the administrative expense as low as possible. Currently, we have the following expenses.\n\n\nCorporation expenses\n\n\n\n\nRegistration fee: $200\n\n\n\n\nIT expenses\n\n\n\n\nDomain: US$17.98\n\n\nHost: Free\n\n\nWebsite: Free\n\n\nEmail: Free\n\n\n\n\nFinancial expenses\n\n\n\n\nAccount fee: $5/month",
+            "title": "Expense"
+        },
+        {
+            "location": "/expense/#expense",
+            "text": "All expense on equipement, supplies and support will be updated here.",
+            "title": "Expense"
+        },
+        {
+            "location": "/expense/#administrative-expense",
+            "text": "We try our best to keep the administrative expense as low as possible. Currently, we have the following expenses.",
+            "title": "Administrative Expense"
+        },
+        {
+            "location": "/expense/#corporation-expenses",
+            "text": "Registration fee: $200",
+            "title": "Corporation expenses"
+        },
+        {
+            "location": "/expense/#it-expenses",
+            "text": "Domain: US$17.98  Host: Free  Website: Free  Email: Free",
+            "title": "IT expenses"
+        },
+        {
+            "location": "/expense/#financial-expenses",
+            "text": "Account fee: $5/month",
+            "title": "Financial expenses"
         }
     ]
 }
