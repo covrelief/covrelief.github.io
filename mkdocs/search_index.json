@@ -4,6 +4,21 @@
             "location": "/",
             "text": "CoV Relief is a Canadian-registered not-for-profit organization. Our goal is to provide help and relief for the victims, infected people and affected residents of 2019-nCoV (Wuhan) outbreak.",
             "title": "Home"
+        },
+        {
+            "location": "/donation/",
+            "text": "How to donate\n\n\nDonation can be made by Interac e-Transfer through all major Canadian banks. Please send your donation to donation@covrelief.ca.\n\n\nWe may issue receipt for any donation transaction larger than $10 amount.\n\n\nTo issue an official donation receipt for tax purposes, the following additional information is needed, as per \nCRA requirement\n.\n\n\n\n\nFull name, including middle initial\n\n\nHome address\n\n\n\n\nPlease send above information with your transaction reference number to donation@covrelief.ca\n\n\nAll donations will be published below. All expense will be published on \"Expense\" page.\n\n\nDonation list\n\n\nDonation list is updated on weekly basis.\n\n\nTo be updated...",
+            "title": "Donation"
+        },
+        {
+            "location": "/donation/#how-to-donate",
+            "text": "Donation can be made by Interac e-Transfer through all major Canadian banks. Please send your donation to donation@covrelief.ca.  We may issue receipt for any donation transaction larger than $10 amount.  To issue an official donation receipt for tax purposes, the following additional information is needed, as per  CRA requirement .   Full name, including middle initial  Home address   Please send above information with your transaction reference number to donation@covrelief.ca  All donations will be published below. All expense will be published on \"Expense\" page.",
+            "title": "How to donate"
+        },
+        {
+            "location": "/donation/#donation-list",
+            "text": "Donation list is updated on weekly basis.  To be updated...",
+            "title": "Donation list"
         }
     ]
 }
