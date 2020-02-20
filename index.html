@@ -7,24 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="None">
   
-  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="shortcut icon" href="img/favicon.ico">
   <title>Home - CoV Relief</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="./css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="./css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="./css/highlight.css">
+  <link rel="stylesheet" href="css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Home";
     var mkdocs_page_input_path = "index.md";
-    var mkdocs_page_url = "/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="./js/jquery-2.1.1.min.js"></script>
-  <script src="./js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="./js/highlight.pack.js"></script> 
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -38,7 +39,7 @@
         <a href="." class="icon icon-home"> CoV Relief</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -52,17 +53,24 @@
     <a class="current" href=".">Home</a>
     <ul class="subnav">
             
+    <li class="toctree-l2"><a href="#who-are-we">Who Are We 我们是谁</a></li>
+    
+
+    <li class="toctree-l2"><a href="#what-do-we-provide">What Do We Provide 我们能做什么</a></li>
+    
+
+    <li class="toctree-l2"><a href="#how-does-it-work">How Does It Work 我们怎样做</a></li>
+    
+
+    <li class="toctree-l2"><a href="#how-to-contact-us">How To Contact Us</a></li>
+    
+
     </ul>
 	    </li>
           
             <li class="toctree-l1">
 		
     <a class="" href="donation/">Donation</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="expense/">Expense</a>
 	    </li>
           
         </ul>
@@ -97,8 +105,31 @@
           <div role="main">
             <div class="section">
               
-                <p><img alt="logo" src="./img/logo.png" /></p>
-<p>CoV Relief is a Canadian-registered not-for-profit organization. Our goal is to provide help and relief for the victims, infected people and affected residents of 2019-nCoV (Wuhan) outbreak.</p>
+                <p><img alt="logo" src="/img/logo.png" /></p>
+<h2 id="who-are-we">Who Are We 我们是谁</h2>
+<p>CoV Relief is a Canadian-registered not-for-profit organization. Our goal is to provide help, support and relief for the victims, infected people and affected residents of COVID-19 (Wuhan Coronavirus) outbreak.</p>
+<p>CoV Relief 是一家在加拿大注册成立的非营利慈善组织。我们的目标是为 COVID-19（武汉冠状病毒）疫情的受害者、感染者和受影响的民众提供帮助与救济。尽可能给更多群众提供卫生健康环境，防止疫情扩散。</p>
+<h2 id="what-do-we-provide">What Do We Provide 我们能做什么</h2>
+<p>We are providing support, including but not limit to</p>
+<ul>
+<li>Purchase and distribute medical equipments and supplies, sanitizing supplies, and health support for infected area</li>
+<li>Provide funding for victims or seriously infected people</li>
+<li>Provide support for minor dependends or old-age people whose custodies are in forced isolation.</li>
+<li>Provide support for community volunteers.</li>
+</ul>
+<p>我们的行动包括并不仅限于</p>
+<ul>
+<li>为疫区提供卫生支持，包括医疗卫生用品的采购与分发</li>
+<li>为受害或受严重感染的群众提供资金支持</li>
+<li>为 COVID-19 造成的弱势家庭成员分离，尤其是老人与儿童，提供生活支持</li>
+<li>为社区义工提供物资及资金支持</li>
+</ul>
+<h2 id="how-does-it-work">How Does It Work 我们怎样做</h2>
+<p>We are partnered with companies and volunteers in China to purchase and distribute supplies, and provide health support.</p>
+<p>我们与来自中国的伙伴单位和志愿者合作，采购物资并分发到疫区，并且提供卫生指导。</p>
+<h2 id="how-to-contact-us">How To Contact Us</h2>
+<p>If you need help or you can provide help, please reach us through contact@covrelief.ca. We will follow up as soon as possible.</p>
+<p>如果您需要帮助，或者您可以提供帮助，请发送邮件到 contact@covrelief.ca，我们会尽快与您取得联系。</p>
               
             </div>
           </div>
@@ -121,12 +152,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -138,12 +169,14 @@
       
     </span>
 </div>
-    <script src="./js/theme.js"></script>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
 
 </body>
 </html>
 
 <!--
-MkDocs version : 0.16.3
-Build Date UTC : 2020-02-07 07:30:48
+MkDocs version : 1.0.4
+Build Date UTC : 2020-02-20 06:35:03
 -->
